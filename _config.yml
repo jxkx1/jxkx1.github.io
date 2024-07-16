@@ -71,8 +71,8 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "how far down the <br/> rabbit holes 🐇, <br/> would it take me? 🤔"
-sidebar-avatar: https://github.com/hynduf.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "No technology that’s connected<br> to the internet is unhackable."
+sidebar-avatar: https://media.licdn.com/dms/image/D4E03AQGg_tZLcFh_Fg/profile-displayphoto-shrink_800_800/0/1698521916904?e=1726704000&v=beta&t=eY4Th4pQqrUv0zCRYZipENr3ZnnnHe2X2kqyHIaPtxw # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -88,5 +88,5 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "Trí Phan", href: "https://triphan2k3.github.io/" },
+    { title: "", href: "" },
   ]
