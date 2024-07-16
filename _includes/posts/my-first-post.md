@@ -1,3 +1,16 @@
+---
+layout: post
+title: "My First Post"
+subtitle: "Why am I even making one in the first place?"
+author: "jxkxl"
+header-img: "assets/wallpaper-sea.png"
+header-mask: 0.4
+multilingual: true
+tags:
+  - Intro
+  - Post
+---
+
 > My First Post
 
 Welcome to my inaugural blog post. I decided to create this post as an opportunity to share my recent experiences and future plans with you.
