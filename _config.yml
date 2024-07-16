@@ -1,11 +1,11 @@
 # Site settings
-title: "🌸🐳 \  HynDuf \  👋"
-SEOTitle: HynDuf Blog
+title: "\\  jxkxl \\"
+SEOTitle: jxkxl's Blog
 header-img: img/hollow-knight.png
-email: hynduf@gmail.com
-description: "May it get me? 🌸"
-keyword: "hynduf, @hynduf, HynDuf's Blog, CP, Arch Linux, Obsidian"
-url: "https://hynduf.github.io" # your host, for absolute URL
+email: cwand333@gmail.com
+description: "My personal blog for all things cyber"
+keyword: "jxkxl, @jxkxl, jxkxl's Blog, CTF, Arch Linux"
+url: "https://jxkx1.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,10 +13,9 @@ future: true
 
 # SNS settings
 RSS: false
-github_username: hynduf
-twitter_username: HynDuf
-facebook_username: HynDuf
-linkedin_username: hynduf
+github_username: jxkx1
+twitter_username: jxkxl
+linkedin_username: andrew-currie-
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -67,8 +66,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
+#ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.

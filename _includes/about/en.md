@@ -1,20 +1,16 @@
 # ABOUT ME
-Hi there 👋, I'm Huynh Tien Dung (HynDuf).
+Hi there, I'm Andrew Currie (aka. jxkxl).
 
-- 👨‍🎓 I am a third-year student at [UET - VNU](https://uet.vnu.edu.vn/) - K66 - C - CLC. 
-- 🌱 I’m currently learning many things to figure out what I really want to do.
-- ✨ I do things wholeheartedly.
-- 📫 Fun fact: 
-  - 🔭 I used to do a lot of [Competitive Programming](http://codeforces.com/profile/_LNHTD_).
-  - 🌸 I obsess with self-improvement.
-  - ⚡ I use Arch btw.
-  - 💎 I love Obsidian.
-
-# ABOUT THIS WEBSITE
-This is a heavily-customized [fork](https://github.com/HynDuf/hynduf.github.io) of the incredible [Hux Blog - Jekyll Theme](https://github.com/Huxpro/huxpro.github.io). I have a blog about how I did it, [check it out](https://hynduf.github.io/2023/12/31/building-my-aesthetic-personal-site/).
+- I am a third-year student at [SETU Carlow](https://setu.ie/). 
+- I’m currently working on building a solid portfolio.
+- I will never say no to a cool project.
+- Fun fact: 
+  - I play alot of [Capture the Flag's](https://www.eccouncil.org/cybersecurity-exchange/ethical-hacking/capture-the-flag-ctf-cybersecurity/).
+  - I play for the Irish CTF team "Ireland without the RE".
+  - I use Arch btw.
 
 # CONTACT
 If you want to reach me out then feel free to DM me on any social media.
 
-Well, I guess that’s about it. Thanks for visiting my website and I hope you found something useful here. Have a wonderful day! ツ
+Well, I guess that’s about it. I hope you find something useful here.
 
