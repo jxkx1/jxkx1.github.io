@@ -3,9 +3,7 @@ layout: post
 title: "My First Post"
 subtitle: "Why am I even making one in the first place?"
 author: "jxkxl"
-header-img: "assets/wallpaper-sea.png"
-header-mask: 0.4
-multilingual: true
+header-style: text
 tags:
   - Intro
   - Post
