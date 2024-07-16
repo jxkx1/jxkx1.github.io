@@ -13,6 +13,6 @@ tags:
 
 <!-- English Version -->
 <div class="en post-container">
-    {% capture en %}{% include posts/2024-01-01-my-2023-in-a-glance/en.md %}{% endcapture %}
+    {% capture en %}{% include posts/my-first-post.md %}{% endcapture %}
     {{ en | markdownify }}
 </div>
