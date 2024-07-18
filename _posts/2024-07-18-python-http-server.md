@@ -10,7 +10,7 @@ tags:
   - Post
 ---
 
-I thought it would be a great idea for my first project to dive into the process of building an HTTP server from scratch using Python 3.12. I chose python as it is the language I am most familiar with, but am planning on doing this again in other languages, both to learn new languages, but to also see how they differ from one another. I'm excited to share this learning journey with you!
+I thought it would be a great idea for my first project to dive into the process of building an HTTP server from scratch using Python 3.12. I chose python as it is the language I am most familiar with, but am planning on doing this again in other languages, both to learn new languages, but to also see how they differ from one another. I'm excited to share this learning journey with you! If you want to see the project, you can visit the GitHub repository [here](https://github.com/jxkx1/py-http-server).
 
 ## Binding To A Port
 To begin, I will set up a basic python program to create a basic tcp server, and bind it to a port. As the TCP/IP protocol is the underlying system in all HTTP servers, I though it would be a good place to start.
