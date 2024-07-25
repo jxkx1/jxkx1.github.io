@@ -80,9 +80,9 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "3rd Place - BSides 2024", href: "https://www.bsidesdub.ie/"},
-    { title: "1st Place - ZeroDays 2024", href: "https://www.setu.ie/news/setu-computing-students-win-at-all-ireland-of-cyber-security-competitions" },
-    { title: "Team Ireland - ECSC 2023", href: "https://cyberireland.ie/team-ireland-competes-in-the-european-cyber-security-challenge/" },
-    { title: "Team Ireland - ECSC 2022", href: "https://www.youtube.com/watch?v=LbueXz3He9Y"},
-    { title: "2nd Place - ZeroDays 2022", href: "https://www.setu.ie/news/setu-carlow-computing-students-place-2nd-in-the-ldquo-all-ireland-rdquo-of-cybersecurity-competitions"},
+    { title: "3rd Place - BSides2024", href: "https://www.bsidesdub.ie/"},
+    { title: "1st Place - ZeroDays2024", href: "https://www.setu.ie/news/setu-computing-students-win-at-all-ireland-of-cyber-security-competitions" },
+    { title: "Team Ireland - ECSC2023", href: "https://cyberireland.ie/team-ireland-competes-in-the-european-cyber-security-challenge/" },
+    { title: "Team Ireland - ECSC2022", href: "https://www.youtube.com/watch?v=LbueXz3He9Y"},
+    { title: "2nd Place - ZeroDays2022", href: "https://www.setu.ie/news/setu-carlow-computing-students-place-2nd-in-the-ldquo-all-ireland-rdquo-of-cybersecurity-competitions"},
   ]
