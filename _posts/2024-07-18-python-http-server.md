@@ -7,7 +7,6 @@ header-style: text
 tags:
   - Python
   - Project
-  - Post
 ---
 
 I thought it would be a great idea for my first project to dive into the process of building an HTTP server from scratch using Python 3.12. I chose python as it is the language I am most familiar with, but am planning on doing this again in other languages, both to learn new languages, but to also see how they differ from one another. I'm excited to share this learning journey with you! If you want to see the project, you can visit the GitHub repository [here](https://github.com/jxkx1/py-http-server).

@@ -64,7 +64,7 @@ netease_comment: false
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "No technology that’s connected to the internet is unhackable."
-sidebar-avatar: https://media.licdn.com/dms/image/D4E03AQGg_tZLcFh_Fg/profile-displayphoto-shrink_800_800/0/1698521916904?e=1726704000&v=beta&t=eY4Th4pQqrUv0zCRYZipENr3ZnnnHe2X2kqyHIaPtxw # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: "/assets/pfp.jpeg" # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -81,8 +81,8 @@ page-mathjax: false
 friends:
   [
     { title: "3rd Place - BSides 2024", href: "https://www.bsidesdub.ie/"},
-    { title: "1st Place - ZeroDays2024", href: "https://www.setu.ie/news/setu-computing-students-win-at-all-ireland-of-cyber-security-competitions" },
-    { title: "Team Ireland - ECSC2023", href: "https://cyberireland.ie/team-ireland-competes-in-the-european-cyber-security-challenge/" },
-    { title: "Team Ireland - ECSC2022", href: "https://www.youtube.com/watch?v=LbueXz3He9Y"},
-    { title: "2nd Place - ZeroDays2022", href: "https://www.setu.ie/news/setu-carlow-computing-students-place-2nd-in-the-ldquo-all-ireland-rdquo-of-cybersecurity-competitions"},
+    { title: "1st Place - ZeroDays 2024", href: "https://www.setu.ie/news/setu-computing-students-win-at-all-ireland-of-cyber-security-competitions" },
+    { title: "Team Ireland - ECSC 2023", href: "https://cyberireland.ie/team-ireland-competes-in-the-european-cyber-security-challenge/" },
+    { title: "Team Ireland - ECSC 2022", href: "https://www.youtube.com/watch?v=LbueXz3He9Y"},
+    { title: "2nd Place - ZeroDays 2022", href: "https://www.setu.ie/news/setu-carlow-computing-students-place-2nd-in-the-ldquo-all-ireland-rdquo-of-cybersecurity-competitions"},
   ]
