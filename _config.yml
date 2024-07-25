@@ -80,7 +80,7 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "3rd Place - BSides Dublin 2024", href: "https://www.bsidesdub.ie/"},
+    { title: "3rd Place - BSides 2024", href: "https://www.bsidesdub.ie/"},
     { title: "1st Place - ZeroDays2024", href: "https://www.setu.ie/news/setu-computing-students-win-at-all-ireland-of-cyber-security-competitions" },
     { title: "Team Ireland - ECSC2023", href: "https://cyberireland.ie/team-ireland-competes-in-the-european-cyber-security-challenge/" },
     { title: "Team Ireland - ECSC2022", href: "https://www.youtube.com/watch?v=LbueXz3He9Y"},
