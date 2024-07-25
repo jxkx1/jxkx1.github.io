@@ -14,8 +14,8 @@ future: true
 # SNS settings
 RSS: false
 github_username: jxkx1
-twitter_username: jxkxl
 linkedin_username: andrew-currie-
+tryhackme_username: jxkxl
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -61,14 +61,6 @@ kramdown:
 # Netease settings
 netease_comment: false
 
-# Analytics settings
-# Baidu Analytics
-# ba_track_id: [your track id]
-
-# Google Analytics
-#ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
-
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "No technology that’s connected to the internet is unhackable."
@@ -88,5 +80,9 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "", href: "" },
+    { title: "3rd Place - BSides Dublin 2024", href: "https://www.bsidesdub.ie/"},
+    { title: "1st Place - ZeroDays2024", href: "https://www.setu.ie/news/setu-computing-students-win-at-all-ireland-of-cyber-security-competitions" },
+    { title: "Team Ireland - ECSC2023", href: "https://cyberireland.ie/team-ireland-competes-in-the-european-cyber-security-challenge/" },
+    { title: "Team Ireland - ECSC2022", href: "https://www.youtube.com/watch?v=LbueXz3He9Y"},
+    { title: "2nd Place - ZeroDays2022", href: "https://www.setu.ie/news/setu-carlow-computing-students-place-2nd-in-the-ldquo-all-ireland-rdquo-of-cybersecurity-competitions"},
   ]
