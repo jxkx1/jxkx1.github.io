@@ -15,7 +15,7 @@ Welcome to my inaugural blog post. I decided to create this post as an opportuni
 At the beginning of 2024, I landed an internship at State Street as a Cyber Defense Intern. This experience has been invaluable, allowing me to connect with skilled professionals and learn about the inner workings of a large organization in the cybersecurity domain. Although it differed from my typical Capture the Flag activities, it was a great chance to broaden my understanding of the cybersecurity landscape.
 
 ## Capture the Flag Successes
-I was honored to place first at the ZeroDays 2024 Capture the Flag competition, representing my college. This achievement was the result of extensive practice and preparation by our team. I also placed third at the BeSide Dublin 2024 Capture the Flag event, which I consider a significant personal accomplishment. Participating in these CTF competitions has been an exhilarating experience that has pushed me to develop my skills further.
+I was honored to place first at the ZeroDays 2024 Capture the Flag competition, representing my college. This achievement was the result of extensive practice and preparation by our team. I also placed third at the BSides Dublin 2024 Capture the Flag event, which I consider a significant personal accomplishment. Participating in these CTF competitions has been an exhilarating experience that has pushed me to develop my skills further.
 
 ## Expanding My Toolbox
 - Learning New Technologies
