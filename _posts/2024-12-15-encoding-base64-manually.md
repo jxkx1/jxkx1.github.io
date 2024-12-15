@@ -1,91 +1,118 @@
 ---
 layout: post
-title: "Manually Encoding Base64: Because Why Not"
-subtitle: "A borderline unnecessary skill for your malware analysis exam"
+title: "Manually Encoding Base64: An Academic Mystery"
+subtitle: "Seriously, why is this on an exam?"
 author: "jxkxl"
 header-style: text
 tags:
   - Base64
-  - College
   - Tutorial
----
-As a web developer (or an unfortunate student taking a malware analysis exam), you may have come across **Base64 encoding**. For the uninitiated, Base64 is a binary representation scheme that lets you take regular human-readable text and turn it into a bunch of gibberish characters that look vaguely like a password you might come up with after three failed attempts.
-
-Now, in the real world, you'd just use a programming method or an online tool to do this. But no. Why should we have things easy? Apparently, manually encoding Base64 is a “crucial skill” according to my lecturer—despite no one being able to articulate *why* this would ever matter. Let’s dive into the most extra way possible to encode Base64 manually.
-
+  - College
 ---
 
-## Step 1: Text to ASCII (Let’s Overcomplicate “hi”)
-The text we’re encoding today is the very intellectual and meaningful `"hi"`. Why? Because it’s short and I refuse to make this more painful than it needs to be.
-
-Each character in `"hi"` is converted to its ASCII value:  
-`h` → **104**  
-`i` → **105**
+Let’s talk about **Base64 encoding**. Normally, this is the kind of thing you’d let a computer handle—you know, like literally every other human on the planet. But no, if you’re taking a college course on malware analysis (like me), you might find yourself in a Kafkaesque scenario where you’re asked to encode Base64 manually. Why? That’s the million-dollar question—and apparently one your professor isn’t eager to answer. Nevertheless, here we are, turning a mundane encoding process into a multi-step odyssey. Let’s dive in.
 
 ---
 
-## Step 2: ASCII to 8-Bit Binary (Because Hexadecimal Was Too Easy)
-Next, we take those ASCII values and convert them into 8-bit binary because Base64 apparently *really* enjoys making us feel like we’re living in the 80s.
+## Step 1: Convert Text to ASCII (Here’s the Table You’ll Need)
+We’re going to encode the text **`"hi"`** into Base64. Why "hi"? Probably because even your professor realized no one has the patience for anything longer.
 
-**104** → `01101000`  
-**105** → `01101001`
+First, translate each character in "hi" into its ASCII value. Here’s the relevant snippet from the ASCII table, which you’ll need because apparently, memorizing this is the height of academia:
 
-So now our text looks like this:  
+| Character | ASCII (Decimal) | ASCII (Binary) |
+|-----------|------------------|-----------------|
+| h         | 104              | 01101000        |
+| i         | 105              | 01101001        |
+
+So:
+- `h` becomes **104**
+- `i` becomes **105**
+
+If you’re wondering why you’re expected to manually encode Base64 instead of, say, running a command or using Google, you’re not alone.
+
+---
+
+## Step 2: Convert ASCII to 8-Bit Binary
+Next, convert those ASCII values into 8-bit binary, because Base64 loves making everything a little more inconvenient.
+
+**104** (h) = `01101000`
+
+**105** (i) = `01101001`
+
+So now "hi" is represented as:
+
 `01101000 01101001`
 
+At this point, you might start asking yourself: *What’s the point of this exercise? Isn’t binary already cool enough?* Don’t worry; the answer remains elusive.
+
 ---
 
-## Step 3: Split into Groups of 6 Bits (Not 8, Because Why Be Logical?)
-This is where things get fun (read: annoying). Base64 is all about 6-bit groups, so we chop our binary string into chunks of 6 bits:
+## Step 3: Split Binary Into Groups of 6 Bits
+Base64 operates on 6-bit chunks, so now we take our binary string and chop it up:
 
 `011010 000110 1001`
 
-Oh wait! That last group isn’t 6 bits. Which brings us to…
+Oh, but what’s this? The last group only has 4 bits! That’s not good enough for Base64’s picky standards, so it’s time to pad.
 
 ---
 
-## Step 4: Padding (Adding Zeros Like We’re Grading on a Curve)
-We need to pad the final group with zeros to make it a full 6 bits:
+## Step 4: Add Padding (Because Nothing Can Be Easy)
+To make the last group a full 6 bits, we pad it with zeros:
 
 `011010 000110 100100`
 
-Padding doesn’t just end here, though! If we add **2 zeroes**, we slap on one `=`. If we add **4 zeroes**, we use `==`.  
-(Base64 is nothing if not consistent in its inconsistency.)
+And that’s not the end of padding. Base64 also insists that the final result be divisible by 4 characters, so we’ll be adding `=` signs at the end (just wait for it). Padding: the gift that keeps on giving.
 
 ---
 
-## Step 5: Convert Each Group to Decimal (Math Makes It Better)
-Time to take those 6-bit groups and convert them into decimals:
+## Step 5: Convert Each Group to Decimal
+Now, we take our 6-bit chunks and convert them into decimal values. Yes, because this is somehow important to your "education."
 
-`011010` → **26**  
-`000110` → **6**  
-`100100` → **36**
+`011010` = **26**
 
----
+`000110` = **6**
 
-## Step 6: Use the Magic Base64 Table (aka the Decoder Ring for Nerds)
-To find the corresponding Base64 characters, we consult the sacred **Base64 Table** (a cryptic scroll of 64 alphanumeric characters plus `+` and `/`):
-
-- **26** → `a`  
-- **6** → `G`  
-- **36** → `k`  
-
-Thus, our binary monstrosity has been reduced to: `aGk`.
+`100100` = **36**
 
 ---
 
-## Step 7: Add Padding (Because Base64 Demands a Flourish)
-Remember those extra zeros we added? That means we get a single padding character: `=`.
+## Step 6: Match Decimals to Base64 Characters
+Here’s the magical Base64 table that maps decimal values (0–63) to specific characters. If you don’t have it memorized, congratulations! You’re a normal person.
 
-Final result: **`aGk=`**. Congratulations! You just manually encoded `"hi"` in Base64. Don’t you feel accomplished? No? Me neither.
+| Decimal | Base64 Character |
+|---------|-------------------|
+| 0       | A                 |
+| 1       | B                 |
+| ...     | ...               |
+| 26      | a                 |
+| 36      | k                 |
+| 63      | /                 |
+
+For our decimal values:
+- **26** = `a`
+- **6** = `G`
+- **36** = `k`
+
+So far, our encoded result is: **`aGk`**.
 
 ---
 
-## Why Are We Doing This Again?
-You may be wondering: *Why does my lecturer think this is important?* Good question. I have no idea. Maybe they’re hoping you’ll one day impress someone by manually encoding a secret message in Base64 during a cybersecurity crisis? (Spoiler alert: you won’t.) Maybe it’s just academic sadism.
+## Step 7: Final Padding (Just When You Thought You Were Done)
+Remember that padding Base64 loves so much? The final encoded string must have a length divisible by 4. If it doesn’t, we add `=` characters to make up the difference. So, we tack on one `=` to the end:
 
-Whatever the reason, now you know how to manually encode Base64. Will you ever use this skill? Unlikely. Was it fun to learn? Not really. But hey, if someone asks you to manually encode text during an exam, you’ll crush it. And if not, at least you got a sarcastic blog post out of it.
+**`aGk=`**
+
+And voilà! You’ve manually encoded "hi" in Base64. Take a moment to let the sheer uselessness of this achievement sink in.
 
 ---
 
-Thanks for reading! If you ever find a reason this skill is actually useful, please do not let me know. I do not to hear about it.
+## Why Are We Doing This? Seriously, Why?
+Let’s face it: manually encoding Base64 is about as practical as handwriting HTML. This is a task that is—and always has been—better suited to computers. So why are we learning it? Is this some kind of hazing ritual for computer science students? An academic inside joke? A way to fill exam papers with busywork? 
+
+Whatever the reason, the odds of you needing this skill in the real world are approximately zero. Unless your dream job is "Base64 historian," you’ll never find yourself in a situation where encoding Base64 by hand is the optimal solution. 
+
+So the next time this pops up on an exam, just remember: you’re doing it not because it’s useful, but because someone, somewhere, thought it’d be funny to put it in the syllabus.
+
+---
+
+Thanks for reading! If you ever uncover the secret to why this is taught in college, please share. Inquiring minds need to know.
