@@ -9,8 +9,6 @@ tags:
   - Project
 ---
 
-## **Introduction**
-
 To learn more about low-level programming and NASM (Netwide Assembler), I created **BasicBoot**, a simple bootloader project. In this post, I'll walk you through my process, the challenges I faced, and key snippets of code to show how it all works. 
 
 ---
