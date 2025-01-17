@@ -83,7 +83,7 @@ The bootloader’s primary job is to load the next stage: the kernel. Here’s t
 - **`int 0x13`**: Executes the BIOS disk read operation.
 - **`jmp bx`**: Transfers control to the loaded kernel.
 
-Testing this part was annoying since all the code looked perfect, but it everything kept crashing on boot. I assumed that there was an error in my qemu, but after re-installing it, I realised had typo in the kernel addressing. After fixing this stupid error, I found everything seemed to look fine. no errors ;P
+Testing this part was annoying since all the code looked perfect, but it everything kept crashing on boot. I assumed that there was an error in my qemu, but after re-installing it, I realised had typo in the kernel addressing. After fixing this stupid error, I found everything seemed to look fine. no errors :P
 
 ---
 
