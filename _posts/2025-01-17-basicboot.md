@@ -155,7 +155,9 @@ Here’s how I built and tested BasicBoot:
    qemu-system-x86_64 -drive format=raw,file=boot.img
    ```
 
-Using QEMU was invaluable for debugging. It saved time compared to real hardware testing and made it easy to iterate on the code.
+Using QEMU saved time debugging compared to real hardware testing and made it easy to iterate on the code. Here is what the end result should look like (If everything compiles with no errors)
+
+![BasicBoot Screen](/assets/basicboot_bootscreen.png)
 
 ---
 
