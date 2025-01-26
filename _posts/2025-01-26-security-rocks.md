@@ -31,7 +31,7 @@ Opening "dump-05.cap" in WireShark revealed numerous 802.11 packets transmitted 
 
 I inspected the protocol hierarchy and found the "802.1X" Authentication protocol listed. Filtering for this protocol uncovered 8 EAPOL packets, indicating that I could exploit the 4-way handshake to obtain the network passkey.
 
-![[../assets/securityRocks1.png]]
+![WireShark](/assets/securityRocks1.png)
 
 ### Exploitation
 
@@ -44,7 +44,7 @@ Executed the command:
 
 This allowed me to crack the hash and reveal the plaintext password: `youwontguessit92`.
 
-![[../assets/securityRocks2.png]]
+![aircrack-ng](/assets/securityRocks2.png)
 
 **Step 2: Decrypt Traffic**
 Set the obtained password as the WPA decryption key in WireShark under `Preferences > IEEE 802.11 > Decryption Keys` as `wpa-pwd`.
@@ -60,7 +60,7 @@ Upon opening, it contained the message:
 **Step 4: Decode the Flag**
 Input the encoded string into CyberChef and decoded it using Base62.
 
-![[../assets/securityRocks3.png]]
+![CyberChef](/assets/securityRocks3.png)
 
 The result was the flag:   `TUCTF{w1f1_15_d3f1n173ly_53cure3}`.
 
