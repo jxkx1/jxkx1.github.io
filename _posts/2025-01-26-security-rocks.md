@@ -11,8 +11,6 @@ tags:
   - TUCTF2025
 ---
 
-# CTF Write-up: Security Rocks
-
 ## Description
 
 I shared a super secret message, I hope it's secure.
