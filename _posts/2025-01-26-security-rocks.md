@@ -2,6 +2,7 @@
 layout: post
 title: "Security Rocks"
 subtitle: "Easy Forensics Chall for TUCTF 2025"
+description: "Easy Forensics Chall for TUCTF 2025"
 author: "jxkxl"
 header-style: text
 tags:
