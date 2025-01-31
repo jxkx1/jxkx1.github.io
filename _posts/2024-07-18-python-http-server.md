@@ -2,6 +2,7 @@
 layout: post
 title: "Python HTTP Server"
 subtitle: "Building a HTTP server from scratch using Python 3.12.4"
+description: "Building a HTTP server from scratch using Python 3.12.4"
 author: "jxkxl"
 header-style: text
 tags:

@@ -2,6 +2,7 @@
 layout: post
 title: "Manually Encoding Base64: An Academic Mystery"
 subtitle: "Seriously, why is this on an exam?"
+description: "Seriously, why is this on an exam?"
 author: "jxkxl"
 header-style: text
 tags:

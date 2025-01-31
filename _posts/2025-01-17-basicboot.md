@@ -2,6 +2,7 @@
 layout: post
 title: "BasicBoot"
 subtitle: "My Attempt at Writing a Simple Bootloader"
+description: "My Attempt at Writing a Simple Bootloader"
 author: "jxkxl"
 header-style: text
 tags:
