@@ -56,7 +56,7 @@ This made the traffic much clearer, revealing FTP data being transferred.
 Exported the FTP objects, which included the file "secret.txt".
 
 Upon opening, it contained the message:  
-"Here's my super secret flag, I made it extra secure ;) 1KZTi2ZV7tO6yNxslvQbjRGL54BsPVyskwv4QaR29UMKj".
+`"Here's my super secret flag, I made it extra secure ;) 1KZTi2ZV7tO6yNxslvQbjRGL54BsPVyskwv4QaR29UMKj".`
  
 **Step 4: Decode the Flag**
 Input the encoded string into CyberChef and decoded it using Base62.
