@@ -9,11 +9,6 @@
     {% include nav.html %}
     {% include search.html %}
 
-    <meta property="og:title" content="{{ page.title | escape }}">
-    <meta property="og:description" content="{{ page.subtitle | default: page.description | default: site.description }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ page.image | absolute_url }}">
-
     {{ content }}
 
     {% include footer.html %}
