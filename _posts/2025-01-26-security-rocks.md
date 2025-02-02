@@ -12,8 +12,6 @@ tags:
   - TUCTF2025
 ---
 
-## Description
-
 I shared a super secret message, I hope it's secure.
 
 ## Tools Used
