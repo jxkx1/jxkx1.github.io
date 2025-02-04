@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Security Rocks" Writeup"
+title: "Security Rocks Writeup"
 subtitle: "Easy Forensics Chall for TUCTF 2025"
 description: "Easy Forensics Chall for TUCTF 2025"
 author: "jxkxl"
