@@ -143,4 +143,4 @@ After decoding, here's what the malicious payload looked like:
 
 - **Flag:** `ECSC{coiGjDtYJcufqrd7w6XtA8a}`
 
-The flag is the attacker's wallet address that was receiving the stolen cryptocurrency. The malware was hijacking XMLHttpRequest to intercept POST requests and replace any `coin_send` addresses with the attacker's wallet. Pretty sneaky supply chain attack!
+The flag is the attacker's wallet address that was receiving the stolen cryptocurrency. The malware was hijacking XMLHttpRequest to intercept POST requests and replace any `coin_send` addresses with the attacker's wallet.
