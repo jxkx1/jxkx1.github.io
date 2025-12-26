@@ -78,4 +78,14 @@
     </a>
   </li>
   {% endif %}
+  {% if site.tryhackme_username %}
+  <li>
+    <a target="_blank" href="https://tryhackme.com/r/{{ site.tryhackme_username }}">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <i class="fa-solid fa-shield-halved fa-stack-1x fa-inverse" style="color: var(--main-background-color);"></i>
+      </span>
+    </a>
+  </li>
+  {% endif %}
 </ul>

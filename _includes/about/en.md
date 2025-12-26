@@ -16,7 +16,10 @@ Hi there, I'm **Andrew Currie** (aka **jxkxl**).
 
 # Contact
 
-If you want to reach out to me, feel free to DM me on any social media platform.
+If you want to reach out to me, feel free to DM me on any social media platform or check out my profiles:
+
+- **GitHub:** [@jxkx1](https://github.com/jxkx1)
+- **LinkedIn:** [Andrew Currie](https://www.linkedin.com/in/andrew-currie-)
 
 ---
 

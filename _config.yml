@@ -1,10 +1,10 @@
 # Site settings
 title: "jxkxl@blog:~$"
-SEOTitle: ""
+SEOTitle: "jxkxl's Blog - CTF Writeups & Cybersecurity"
 header-img: img/hollow-knight.png
 email: cwand333@gmail.com
 description: "Here you'll find my CTF write-ups and other random cyber stuff I am interested in"
-keyword: "jxkxl, @jxkxl, jxkxl's Blog, CTF, Arch Linux"
+keyword: "jxkxl, @jxkxl, jxkxl's Blog, CTF, cybersecurity, forensics, binary exploitation, Team Ireland, ECSC, NCSC, ReliaQuest, SETU Carlow"
 url: "https://jxkx1.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -12,7 +12,7 @@ baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 future: true
 
 # SNS settings
-RSS: false
+RSS: true
 github_username: jxkx1
 linkedin_username: andrew-currie-
 tryhackme_username: jxkxl
